@@ -19,13 +19,6 @@
       "make_targets": {
         "win32": [
           "squirrel"
-        ],
-        "darwin": [
-          "zip"
-        ],
-        "linux": [
-          "deb",
-          "rpm"
         ]
       },
       "electronPackagerConfig": {
@@ -47,7 +40,7 @@
     }
   },
   "dependencies": {
-    "bibling": "^1.1.1",
+    "bibling": "^1.1.2",
     "electron-compile": "^6.4.3",
     "electron-devtools-installer": "^2.2.4",
     "electron-squirrel-startup": "^1.0.0",

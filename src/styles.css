@@ -3,4 +3,9 @@ html, body {
     height: 100%;
     background-color: #101010;
     color: #bbb;
+    overflow: hidden;
+}
+
+#app {
+    height: 100%;
 }
