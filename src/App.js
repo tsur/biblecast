@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
 // import {AppContext} from '../contexts/app';
-
-import Page from './Page';
-import Search from './search';
-import Screen from './screen';
+import Page from './components/Page';
+import Search from './components/search';
+import Screen from './components/screen';
 
 export default class App extends Component {
 
@@ -16,12 +15,6 @@ export default class App extends Component {
 
     this.setVerses = this.setVerses.bind(this);
   }
-
-  // addScreen = ({search, translation, quotes}) => {
-  //   this.setState(state => ({
-  //     screens: [...state.screens, {search, translation, quotes}]
-  //   }));
-  // }
 
   setVerses(verses) {
     this.setState({verses});

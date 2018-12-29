@@ -6,8 +6,8 @@ import Container from './Container';
 import localStorage from '../../utils/localStorage';
 import * as pubSub from '../../utils/pubSub';
 
-const VERSES_MAX_LENGTH = 111;
-const VERSES_MAX_WORDS = 12;
+const VERSES_MAX_LENGTH = 100;
+const VERSES_MAX_WORDS = 8;
 
 function chunk(list, chunkSize) {
   let i;

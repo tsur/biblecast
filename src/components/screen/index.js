@@ -5,7 +5,8 @@ import circularListIndexIterator from '../../utils/circularListIndexIterator';
 import Container from './Container';
 import TextContainer from './TextContainer';
 import * as pubSub from '../../utils/pubSub';
-import electron from 'electron';
+
+const electron = window.require('electron');
 
 const versesEquals = (versesListA, versesListB) => {
   if(versesListA.length !== versesListB.length){
